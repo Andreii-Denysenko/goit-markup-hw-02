@@ -1,1 +1,19 @@
+/* 
+color foter:#2F303A;
+color heade background: #FFFFFF;
+web background: #2196F3;
+background: #F5F4FA;
+ */
 
+body {
+  font-family: "Roboto" sans-serif;
+}
+
+/* Логотип */
+.logo-color {
+  color: #2196f3;
+}
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
