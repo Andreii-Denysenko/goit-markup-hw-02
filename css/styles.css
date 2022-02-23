@@ -24,14 +24,32 @@ body {
   list-style: none;
 }
 
+/* Контакты */
+.contacts {
+  color: ;
+  text-decoration: none;
+}
+.contacts-top {
+  color: var(--secondary-text-color);
+}
+.contacts-top:hover,
+.contacts-top:focus {
+  color: var(--accent-color);
+}
+.contacts-bot {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* навигация Шапки */
 .header-nav .link {
   color: var(--primery-text-color);
+  text-decoration: none;
 }
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: var(--accent-color);
 }
+
 /* hero */
 .hero {
   background-color: var(--secondary-background-color);
@@ -43,8 +61,18 @@ body {
   color: var(--whitе-text-color);
   background-color: var(--accent-color);
 }
+
+/* Преимущества */
+.features {
+}
 .features-list {
 }
+
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+
 /* Заголовки */
 .section-title {
   color: var(--primery-text-color);
@@ -55,13 +83,20 @@ body {
 
 /* Логотип */
 .logo {
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-top {
   color: #000000;
 }
-.logo-color {
-  color: var(--accent-color);
+.logo-bot {
+  color: var(--whitе-text-color);
 }
 /* Подвал */
 
 .footer {
   background-color: var(--secondary-background-color);
+  color: var(--whitе-text-color);
 }
