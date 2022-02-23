@@ -16,7 +16,7 @@
 
 body {
   background: var(--whitе-text-color);
-  color: var();
+  color: var(--primery-text-color);
 }
 
 /* Сбрасывает маркеры со списков */
@@ -26,7 +26,6 @@ body {
 
 /* Контакты */
 .contacts {
-  color: ;
   text-decoration: none;
 }
 .contacts-top {
@@ -98,5 +97,22 @@ body {
 
 .footer {
   background-color: var(--secondary-background-color);
+  color: var(--whitе-text-color);
+}
+.footer-list .link:focus,
+.footer-list .link:hover {
+  color: var(--accent-color);
+}
+
+/*Портфолио */
+.portfolio {
+  background-color: #e5e5e5;
+}
+.button {
+  cursor: pointer;
+}
+.button-list :hover,
+.button-list :focus {
+  border-color: var(--accent-color);
   color: var(--whitе-text-color);
 }
