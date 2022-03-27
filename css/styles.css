@@ -17,6 +17,8 @@
 body {
   background: var(--whitе-text-color);
   color: var(--primery-text-color);
+  font-family: Roboto;
+  font-weight: bold, 400;
 }
 
 /* Сбрасывает маркеры со списков */
@@ -83,6 +85,7 @@ body {
 /* Логотип */
 .logo {
   text-decoration: none;
+  font-family: Roleway;
 }
 .logo-web {
   color: var(--accent-color);
