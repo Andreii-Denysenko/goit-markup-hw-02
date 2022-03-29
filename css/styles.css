@@ -183,6 +183,10 @@ body {
 }
 
 /*----------------------------------------------------Портфолио */
+.pre-portfolio {
+  background-color: #e5e5e5;
+}
+
 .portfolio {
   background-color: var(--whitе-text-color);
 }
