@@ -95,6 +95,12 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* .hero-bt:hover,
+.hero-bt:focus {
+  color: var(--accent-color);
+  background-color: var(--whitе-text-color);
+} */
+
 /*----------------------------------------------- Преимущества */
 
 .benefits {
@@ -104,6 +110,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .aboutus {
   font-weight: 700;
   font-size: 36px;
@@ -145,7 +152,7 @@ body {
 /*----------------------------------------------Логотип */
 .logo {
   text-decoration: none;
-  font-family: Raleway, cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
