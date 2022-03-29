@@ -17,11 +17,15 @@
 body {
   background: var(--whitе-text-color);
   color: var(--primery-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-/* Сбрасывает маркеры со списков и подчёркивания ссылок*/
+.button {
+  cursor: pointer;
+}
+
+/*-------------------------------- Сбрасывает маркеры со списков и подчёркивания ссылок*/
 .list {
   list-style: none;
 }
@@ -29,7 +33,7 @@ body {
   text-decoration: none;
 }
 
-/* Контакты */
+/* -----------------------------------------Контакты */
 .contacts {
   text-decoration: none;
 }
@@ -51,7 +55,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* навигация Шапки */
+/*-------------------------------------- -------навигация Шапки */
 .header-nav .link {
   color: var(--primery-text-color);
   text-decoration: none;
@@ -65,7 +69,7 @@ body {
   color: var(--accent-color);
 }
 
-/* hero */
+/*---------------------------------------------------hero */
 .hero {
   background-color: var(--secondary-background-color);
 }
@@ -81,6 +85,7 @@ body {
 .hero-bt {
   color: var(--whitе-text-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -90,7 +95,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* Преимущества */
+/*----------------------------------------------- Преимущества */
+
 .benefits {
   font-weight: 700;
   font-size: 14px;
@@ -105,7 +111,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* Наша команда */
+/*---------------------------------------------- Наша команда */
 .team {
   background-color: #f5f4fa;
 }
@@ -121,7 +127,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Заголовки */
+/*--------------------------------------------Заголовки */
 .section-title {
   color: var(--primery-text-color);
 }
@@ -136,7 +142,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* Логотип */
+/*----------------------------------------------Логотип */
 .logo {
   text-decoration: none;
   font-family: Raleway, cursive;
@@ -145,26 +151,30 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 .logo-web {
   color: var(--accent-color);
 }
+
 .logo-top {
   color: #000000;
 }
+
 .logo-bot {
   color: var(--whitе-text-color);
 }
-/* Подвал */
+/* ---------------------------------------------------Подвал */
 
 .footer {
   background-color: var(--secondary-background-color);
   color: var(--whitе-text-color);
 }
+
 .footer-list .link:focus,
 .footer-list .link:hover {
   color: var(--accent-color);
 }
-/*Адресс */
+/*----------------------------------------------------Адресс */
 .address {
   font-weight: 500;
   font-size: 14px;
@@ -172,31 +182,34 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*Портфолио */
+/*----------------------------------------------------Портфолио */
 .portfolio {
   background-color: var(--whitе-text-color);
 }
-.button {
-  cursor: pointer;
-}
+
 .button-list :hover,
 .button-list :focus {
   border-color: var(--accent-color);
   color: var(--whitе-text-color);
 }
+
 .button-list {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
-/*Наши продукти*/
+
+/*-----------------------------------------------------Наши продукти*/
+
 .name-products {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .products {
   font-size: 16px;
   line-height: 1.87;
