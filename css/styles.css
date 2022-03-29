@@ -174,7 +174,7 @@ body {
 
 /*Портфолио */
 .portfolio {
-  background-color: #e5e5e5;
+  background-color: var(--whitе-text-color);
 }
 .button {
   cursor: pointer;
@@ -188,5 +188,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+/*Наши продукти*/
+.name-products {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.products {
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
