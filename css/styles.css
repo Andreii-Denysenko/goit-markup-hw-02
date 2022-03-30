@@ -8,28 +8,35 @@
 :root {
   --primery-text-color: #212121;
   --secondary-text-color: #757575;
-  --whitе-text-color: #ffffff;
+  --main-light-color-text: #ffffff;
   --accent-color: #2196f3;
   /* Цвет подвала background: #2F303A; */
   --secondary-background-color: #2f303a;
+  --color-contacts-bot: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background: var(--whitе-text-color);
+  background: var(--main-light-color-text);
   color: var(--primery-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-size: 16px;
 }
 
 .button {
   cursor: pointer;
+  font: inherit;
+}
+
+.accent-effect .link:hover,
+.accent-effect .link:focus {
+  color: var(--accent-color);
 }
 
 /*-------------------------------- Сбрасывает маркеры со списков и подчёркивания ссылок*/
 .list {
   list-style: none;
 }
-.list a {
+.link {
   text-decoration: none;
 }
 
@@ -49,7 +56,7 @@ body {
   color: var(--accent-color);
 }
 .contacts-bot {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-contacts-bot);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -64,17 +71,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-nav .link:hover,
-.header-nav .link:focus {
-  color: var(--accent-color);
-}
 
-/*---------------------------------------------------hero */
+/*--------------------------------------------------hero */
 .hero {
   background-color: var(--secondary-background-color);
 }
 .hero-title {
-  color: var(--whitе-text-color);
+  color: var(--main-light-color-text);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -83,9 +86,8 @@ body {
   text-transform: uppercase;
 }
 .hero-bt {
-  color: var(--whitе-text-color);
+  color: var(--main-light-color-text);
   background-color: var(--accent-color);
-  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -98,7 +100,7 @@ body {
 /* .hero-bt:hover,
 .hero-bt:focus {
   color: var(--accent-color);
-  background-color: var(--whitе-text-color);
+  background-color: var(--main-light-color-text);
 } */
 
 /*----------------------------------------------- Преимущества */
@@ -111,42 +113,54 @@ body {
   text-transform: uppercase;
 }
 
-.aboutus {
+.aboutus-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 /*---------------------------------------------- Наша команда */
 .team {
   background-color: #f5f4fa;
-}
-.team h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-.team p {
-  font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
-/*--------------------------------------------Заголовки */
-.section-title {
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
   color: var(--primery-text-color);
 }
-.benefits {
+
+.name-title {
+  color: var(--primery-text-color);
+  font-weight: 500;
+}
+
+.text-after-name {
+  line-height: 1.19;
+}
+
+/*--------------------------------------------Заголовки */
+.benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primery-text-color);
 }
-.after-title {
+.text {
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
 }
 
 /*----------------------------------------------Логотип */
@@ -168,13 +182,13 @@ body {
 }
 
 .logo-bot {
-  color: var(--whitе-text-color);
+  color: var(--main-light-color-text);
 }
 /* ---------------------------------------------------Подвал */
 
 .footer {
   background-color: var(--secondary-background-color);
-  color: var(--whitе-text-color);
+  color: var(--main-light-color-text);
 }
 
 .footer-list .link:focus,
@@ -190,22 +204,18 @@ body {
 }
 
 /*----------------------------------------------------Портфолио */
-.pre-portfolio {
-  background-color: #e5e5e5;
-}
 
 .portfolio {
-  background-color: var(--whitе-text-color);
+  background-color: var(--main-light-color-text);
 }
 
-.button-list :hover,
-.button-list :focus {
-  border-color: var(--accent-color);
-  color: var(--whitе-text-color);
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-light-color-text);
 }
 
-.button-list {
-  font-family: inherit;
+.portfholio-button-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -214,15 +224,15 @@ body {
 
 /*-----------------------------------------------------Наши продукти*/
 
-.name-products {
+.name-products-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primery-text-color);
 }
 
 .products {
-  font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
