@@ -14,6 +14,7 @@
   --secondary-background-color: #2f303a;
   --color-contacts-bot: rgba(255, 255, 255, 0.6);
   --color-logo-dark: #000000;
+  --color-hero-bt-hover: #188ce8;
 }
 
 body {
@@ -27,7 +28,9 @@ body {
 .button {
   cursor: pointer;
   font-family: inherit;
+  border: none;
 }
+
 .curent-button {
   color: var(--main-light-color-text);
   background-color: var(--accent-color);
@@ -66,9 +69,9 @@ body {
 }
 
 /*-------------------------------------- -------навигация Шапки */
-.header-nav .link {
-  color: var(--primery-text-color);
-  text-decoration: none;
+
+.link-header {
+  color: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -96,6 +99,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--main-light-color-text);
 }
 .current {
   color: var(--accent-color);
@@ -104,7 +109,7 @@ body {
 .hero-bt:hover,
 .hero-bt:focus {
   color: var(--main-light-color-text);
-  background-color: var(--accent-color);
+  background-color: var(--color-hero-bt-hover);
 }
 
 /*----------------------------------------------- Преимущества */
@@ -114,7 +119,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .aboutus-title {
@@ -146,10 +150,12 @@ body {
 .name-title {
   color: var(--primery-text-color);
   font-weight: 500;
+  font-size: 16px;
 }
 
 .text-after-name {
   line-height: 1.19;
+  font-size: 16px;
 }
 
 /*--------------------------------------------Заголовки */
@@ -214,8 +220,7 @@ body {
   background-color: var(--accent-color);
   color: var(--main-light-color-text);
 }
-
-.portfholio-button-list {
+.portfolio-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
