@@ -103,8 +103,8 @@ body {
   color: var(--accent-color);
 }
 
-.hero > button:hover,
-.hero > button:focus {
+.hero-bt:hover,
+.hero-bt:focus {
   color: var(--accent-color);
   background-color: var(--main-light-color-text);
 }
