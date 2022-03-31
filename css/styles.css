@@ -89,8 +89,6 @@ body {
   text-transform: uppercase;
 }
 .hero-bt {
-  color: var(--main-light-color-text);
-  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -105,8 +103,8 @@ body {
 
 .hero-bt:hover,
 .hero-bt:focus {
-  color: var(--accent-color);
-  background-color: var(--main-light-color-text);
+  color: var(--main-light-color-text);
+  background-color: var(--accent-color);
 }
 
 /*----------------------------------------------- Преимущества */
